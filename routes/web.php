@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return redirect('https://kenshuuexpress.id/');
+    return redirect('https://grosir.hakimasrori.site/');
 });
 
 Route::get('/optimize/{command}', function ($command) {
